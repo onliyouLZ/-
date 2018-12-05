@@ -23,7 +23,7 @@ Page({
         children: [
           {
             type: 'text',
-            text: '视频一'
+            text: '完整版'
           }
         ]
       }],
@@ -35,7 +35,7 @@ Page({
       children: [
         {
           type: 'text',
-          text: '视频二'
+          text: '水位'
         }
       ]
     }],
@@ -47,7 +47,7 @@ Page({
       children: [
         {
           type: 'text',
-          text: '视频三'
+          text: '流速仪流量'
         }
       ]
     }],
@@ -59,7 +59,7 @@ Page({
       children: [
         {
           type: 'text',
-          text: '视频四'
+          text: 'adcp流量'
         }
       ]
     }],
@@ -71,7 +71,7 @@ Page({
       children: [
         {
           type: 'text',
-          text: '视频五'
+          text: '20mm降雨'
         }
       ]
     }],
@@ -83,7 +83,31 @@ Page({
       children: [
         {
           type: 'text',
-          text: '视频六'
+          text: '虹吸式雨量'
+        }
+      ]
+    }],
+    nodes7: [{
+      name: 'a',
+      attrs: {
+        class: 'div_class',
+      },
+      children: [
+        {
+          type: 'text',
+          text: '蒸发'
+        }
+      ]
+    }],
+    nodes7: [{
+      name: 'a',
+      attrs: {
+        class: 'div_class',
+      },
+      children: [
+        {
+          type: 'text',
+          text: '水温'
         }
       ]
     }]
@@ -92,18 +116,24 @@ Page({
     this.setData({ src: "http://1258175978.vod2.myqcloud.com/edfdd31fvodtranscq1258175978/05bedd475285890783410045427/v.f30.mp4" })
   },
   tap2() {
-    this.setData({ src: "https://zunyishuiwenceyanshipin-1258175978.cos.ap-chengdu.myqcloud.com/02-%E6%B0%B4%E4%BD%8D.mp4" })
+    this.setData({ src: "http://1258175978.vod2.myqcloud.com/edfdd31fvodtranscq1258175978/bab0e2d15285890783419068711/v.f30.mp4" })
   },
   tap3() {
-    this.setData({ src: "https://zunyishuiwenceyanshipin-1258175978.cos.ap-chengdu.myqcloud.com/02-%E6%B0%B4%E4%BD%8D.mp4" })
+    this.setData({ src: "http://1258175978.vod2.myqcloud.com/edfdd31fvodtranscq1258175978/ba56f4945285890783419019709/v.f30.mp4" })
   },
   tap4() {
-    this.setData({ src: "https://zunyishuiwenceyanshipin-1258175978.cos.ap-chengdu.myqcloud.com/04-%E6%B0%B4%E6%B8%A9.mp4" })
+    this.setData({ src: "http://1258175978.vod2.myqcloud.com/edfdd31fvodtranscq1258175978/805dbe795285890783418864860/v.f30.mp4" })
   },
   tap5() {
-    this.setData({ src: "https://zunyishuiwenceyanshipin-1258175978.cos.ap-chengdu.myqcloud.com/05-%E8%92%B8%E5%8F%91%E7%9A%BF.mp4" })
+    this.setData({ src: "http://1258175978.vod2.myqcloud.com/edfdd31fvodtranscq1258175978/807fad5e5285890783418880498/v.f30.mp4" })
   },
   tap6() {
-    this.setData({ src: "https://zunyishuiwenceyanshipin-1258175978.cos.ap-chengdu.myqcloud.com/%E8%A7%82%E6%B5%8B%E5%87%86%E5%A4%87.mp4" })
+    this.setData({ src: "http://1258175978.vod2.myqcloud.com/edfdd31fvodtranscq1258175978/ba5558d45285890783419016973/v.f30.mp4" })
+  },
+  tap7() {
+    this.setData({ src: "http://1258175978.vod2.myqcloud.com/edfdd31fvodtranscq1258175978/bcbcffce5285890783419127055/v.f30.mp4" })
+  },
+  tap8() {
+    this.setData({ src: "http://1258175978.vod2.myqcloud.com/edfdd31fvodtranscq1258175978/ba7a09745285890783419037673/v.f30.mp4" })
   }
 })
