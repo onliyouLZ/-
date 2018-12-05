@@ -1,0 +1,13 @@
+<view class="page-body">
+  <view class="page-section tc">
+    <video id="myVideo"   src="{{src}}" binderror="videoErrorCallback" autoplay></video>
+  </view>
+  <view class="section tc">
+      <!-- <rich-text nodes="{{nodes1}}" bindtap="tap1"></rich-text> -->
+      <!-- <rich-text nodes="{{nodes2}}" bindtap="tap2"></rich-text>
+      <rich-text nodes="{{nodes3}}" bindtap="tap3"></rich-text>
+      <rich-text nodes="{{nodes4}}" bindtap="tap4"></rich-text>
+      <rich-text nodes="{{nodes5}}" bindtap="tap5"></rich-text>
+      <rich-text nodes="{{nodes6}}" bindtap="tap6"></rich-text> -->
+  </view>
+</view>
